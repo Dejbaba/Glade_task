@@ -32,8 +32,9 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-       home: BottomNav(),
-        //home: SecondBottomNav(),
+       //switch between the two lines below to view the different designs specified in the task
+       //home: BottomNav(),
+        home: SecondBottomNav(),
       ),
     );
   }

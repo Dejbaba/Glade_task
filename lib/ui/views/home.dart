@@ -160,12 +160,6 @@ class Home extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                /*Container(
-                  height: height(context) / 15,
-                  width: width(context) / 8,
-                  child: Image.asset("assets/images/first/account_statement.png",
-                    color: tangerineOrange,),
-                ),*/
                 Container(
                   height: height(context) / 15,
                   width: width(context) / 8,
@@ -187,7 +181,7 @@ class Home extends StatelessWidget {
                 Text("Send Funds to any \nBank Account.",
                     style: GoogleFonts.dmSans(
                         height: 1,
-                        fontSize: width(context) / 30, fontWeight: FontWeight.w600, color: astronautBlue)),
+                        fontSize: width(context) / 32, fontWeight: FontWeight.w600, color: astronautBlue)),
               ],
             ),
           ),
@@ -219,7 +213,7 @@ class Home extends StatelessWidget {
                 Text("Send Funds to any \nBank Account.",
                     style: GoogleFonts.dmSans(
                         height: 1,
-                        fontSize: width(context) / 30, fontWeight: FontWeight.w600, color: astronautBlue)),
+                        fontSize: width(context) / 32, fontWeight: FontWeight.w600, color: astronautBlue)),
               ],
             ),
           ),
@@ -255,7 +249,7 @@ class Home extends StatelessWidget {
                 Text("Send Funds to any \nBank Account.",
                     style: GoogleFonts.dmSans(
                         height: 1,
-                        fontSize: width(context) / 30, fontWeight: FontWeight.w600, color: astronautBlue)),
+                        fontSize: width(context) / 32, fontWeight: FontWeight.w600, color: astronautBlue)),
               ],
             ),
           ),
@@ -287,7 +281,7 @@ class Home extends StatelessWidget {
                 Text("Send Funds to any \nBank Account.",
                     style: GoogleFonts.dmSans(
                         height: 1,
-                        fontSize: width(context) / 30, fontWeight: FontWeight.w600, color: astronautBlue)),
+                        fontSize: width(context) / 32, fontWeight: FontWeight.w600, color: astronautBlue)),
               ],
             ),
           ),

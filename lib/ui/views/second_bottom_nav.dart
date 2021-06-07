@@ -5,7 +5,6 @@ import 'package:glade_task/core/constants/app_constants.dart';
 import 'package:glade_task/core/providers/bottom_nav_provider.dart';
 import 'package:glade_task/ui/shared/colors.dart';
 import 'package:glade_task/ui/widgets/bottom_nav_items.dart';
-import 'package:glade_task/ui/widgets/exit_dialog.dart';
 import 'package:provider/provider.dart';
 
 
@@ -26,7 +25,7 @@ class _SecondBottomNav extends State<SecondBottomNav> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: () async => exitApp(context),
+      onWillPop: () async => false,
       child: Consumer<BottomNavProvider>(
         builder: (context, provider, child) => Scaffold(
           key: _scaffoldKey,
