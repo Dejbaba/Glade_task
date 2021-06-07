@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:glade_task/core/constants/app_constants.dart';
 import 'package:glade_task/core/utils/utilities.dart';
 import 'package:glade_task/ui/shared/colors.dart';
-import 'package:glade_task/ui/widgets/listview_items/crypto_action_option.dart';
+import 'package:glade_task/ui/widgets/crypto_action_option.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CryptoCurrency extends StatelessWidget{

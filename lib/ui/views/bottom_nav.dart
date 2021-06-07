@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:glade_task/core/constants/app_constants.dart';
 import 'package:glade_task/core/providers/bottom_nav_provider.dart';
 import 'package:glade_task/ui/shared/colors.dart';
-import 'package:glade_task/ui/widgets/listview_items/bottom_nav_items.dart';
-import 'package:glade_task/ui/widgets/listview_items/exit_dialog.dart';
+import 'package:glade_task/ui/widgets/bottom_nav_items.dart';
+import 'package:glade_task/ui/widgets/exit_dialog.dart';
 import 'package:provider/provider.dart';
 
 
@@ -48,11 +48,11 @@ class _BottomNav extends State<BottomNav> {
                     unselectedFontSize: width(context) / 35,
                     backgroundColor: Colors.white,
                     selectedLabelStyle: TextStyle(
-                        fontFamily: 'Avenir',
+                        fontFamily: 'NeurialGrotesk',
                         //fontSize: width(context) / 27,
                         fontWeight: FontWeight.w700,),
                     unselectedLabelStyle: TextStyle(
-                      fontFamily: 'Avenir',
+                      fontFamily: 'NeurialGrotesk',
                       fontWeight: FontWeight.w700,),
                     selectedItemColor: astronautBlue,
                     unselectedItemColor: astronautBlue.withOpacity(0.4),

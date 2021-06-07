@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:glade_task/locator.dart';
 import 'package:glade_task/ui/views/bottom_nav.dart';
+import 'package:glade_task/ui/views/second_bottom_nav.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: BottomNav(),
+       // home: BottomNav(),
+        home: SecondBottomNav(),
       ),
     );
   }

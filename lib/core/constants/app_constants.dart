@@ -1,10 +1,9 @@
+
 import 'package:flutter/material.dart';
+import 'package:glade_task/core/models/dummy_balance_detail.dart';
+import 'package:glade_task/core/models/dummy_transaction.dart';
 import 'package:intl/intl.dart';
 
-class RoutePaths {
-  static const String cryptoCurrency = '/cryptoCurrency';
-
-}
 
 //MediaQuery Width
 double width(BuildContext context) {
@@ -36,5 +35,55 @@ double aspectRatio(BuildContext context){
 
   return aspectRatio;
 }
+
+
+///dummy transaction data
+List<DummyTransaction> dummyTransactions = [
+  DummyTransaction(
+    date: "Tuesday, March 31st, 2020",
+    description: "Transfer to Naira Account",
+    currency: "NGN",
+    amount: 124000.44,
+    transactionType: 0
+  ), DummyTransaction(
+    date: "Wednesday, July 31st, 2020",
+    description: "West Minchester Bank approval for new tax policy",
+    currency: "EUR",
+    amount: 900.00,
+      transactionType: 1
+  ),DummyTransaction(
+    date: "Tuesday, August 31st, 2020",
+    description: "Purchase on Ebay plus shipping and other added fees",
+    currency: "EUR",
+    amount: 400.00,
+      transactionType: 0
+  ),DummyTransaction(
+    date: "Tuesday, November 31st, 2020",
+    description: "Netflix Subscription",
+    currency: "USD",
+    amount: 5.44,
+      transactionType: 0
+  ),DummyTransaction(
+    date: "Wednesday, December 31st, 2020",
+    description: "University of Calgary administration and acceptance fee",
+    currency: "EUR",
+    amount: 1200.00,
+      transactionType: 1
+  ),
+];
+
+///dummy account balance details
+List<DummyBalanceDetail> dummyBalanceDetails = [
+  DummyBalanceDetail(
+    accountType: "USD ACCOUNT",
+    amount: 5123.00,
+    acctCode: 0
+  ),
+  DummyBalanceDetail(
+      accountType: "NGN ACCOUNT",
+      amount: 5000.00,
+    acctCode: 1
+  ),
+];
 
 
