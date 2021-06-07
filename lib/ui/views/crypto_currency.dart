@@ -153,7 +153,7 @@ class CryptoCurrency extends StatelessWidget{
                         height: 1,
                         fontSize: width(context) / 45, fontWeight: FontWeight.w500, color: Colors.white)),
                 SizedBox(height: 4,),
-                Text("\$ ${Utilities.formatAmount(amount: 39445.18)}",
+                Text("\$${Utilities.formatAmount(amount: 39445.18)}",
                       style: GoogleFonts.dmSans(
                           fontSize: width(context) / 32,
                           fontWeight: FontWeight.w900,
