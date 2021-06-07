@@ -11,13 +11,13 @@ userBottomTabItems(BuildContext context){
       backgroundColor: Colors.white,
       activeIcon: Image.asset(
         'assets/images/first/home.png',
-        height: 20,
+        height: width(context) / 20,
         color: astronautBlue,
       ),
       icon: Image.asset(
         'assets/images/first/home.png',
         //color: scarletRed,
-        height: 20,
+        height: width(context) / 20,
         color: astronautBlue.withOpacity(0.4),
       ),
       label: "Home",
@@ -27,15 +27,15 @@ userBottomTabItems(BuildContext context){
     ),
     new BottomNavigationBarItem(
       activeIcon: Image.asset(
-        'assets/images/first/send_money.png',
-        height: 20,
+        'assets/images/second/send.png',
+        height: width(context) / 20,
         color: astronautBlue,
       ),
       icon: Image.asset(
-        'assets/images/first/send_money.png',
+        'assets/images/second/send.png',
         //color: scarletRed,
-        height: 20,
-        color: astronautBlue.withOpacity(0.6),
+        height: width(context) / 20,
+        color: astronautBlue.withOpacity(0.3),
       ),
       label: "Send Money",
       /* title: new Text('Appointments',style: TextStyle(color: _currentIndex == 1 ? scarletRed : sharkGrey, fontFamily: 'GoogleSans', fontWeight: FontWeight.bold, fontSize: width(context) / 38 ),
@@ -44,13 +44,13 @@ userBottomTabItems(BuildContext context){
     new BottomNavigationBarItem(
       activeIcon: Image.asset(
         'assets/images/first/cards.png',
-        height: 20,
+        height: width(context) / 23,
         color: astronautBlue,
       ),
       icon: Image.asset(
         'assets/images/first/cards.png',
         //color: scarletRed,
-        height: 20,
+        height: width(context) / 23,
         color: astronautBlue.withOpacity(0.2),
       ),
       label: "Cards",
@@ -60,13 +60,13 @@ userBottomTabItems(BuildContext context){
     new BottomNavigationBarItem(
       activeIcon: Image.asset(
         'assets/images/first/more.png',
-        height: 20,
+        height: width(context) / 20,
         color: astronautBlue,
       ),
 
       icon: Image.asset(
         'assets/images/first/more.png',
-        height: 20,
+        height: width(context) / 20,
         color: astronautBlue.withOpacity(0.4),
         //color: scarletRed,
       ),
@@ -85,13 +85,13 @@ userBottomTabItems2(BuildContext context){
       backgroundColor: Colors.white,
       activeIcon: Image.asset(
         'assets/images/second/home.png',
-        height: 20,
+        height: width(context) / 20,
         color: affairPurple,
       ),
       icon: Image.asset(
         'assets/images/second/home.png',
         //color: scarletRed,
-        height: 20,
+        height: width(context) / 20,
         color: affairPurple.withOpacity(0.4),
       ),
       label: "Home",
@@ -102,13 +102,13 @@ userBottomTabItems2(BuildContext context){
     new BottomNavigationBarItem(
       activeIcon: Image.asset(
         'assets/images/second/check_rate.png',
-        height: 20,
+        height: width(context) / 20,
         color: affairPurple,
       ),
       icon: Image.asset(
         'assets/images/second/check_rate.png',
         //color: scarletRed,
-        height: 20,
+        height: width(context) / 20,
         color: affairPurple.withOpacity(0.6),
       ),
       label: "Check Rate",
@@ -125,14 +125,14 @@ userBottomTabItems2(BuildContext context){
     new BottomNavigationBarItem(
       activeIcon: Image.asset(
         'assets/images/second/fund_account.png',
-        height: 20,
+        height: width(context) / 20,
         color: affairPurple,
       ),
       icon: Image.asset(
         'assets/images/second/fund_account.png',
         //color: scarletRed,
-        height: 20,
-        color: affairPurple.withOpacity(0.2),
+        height: width(context) / 20,
+        color: affairPurple.withOpacity(0.6),
       ),
       label: "Fund Account",
       /*title: new Text('Matches',style: TextStyle(color: _currentIndex == 2 ? scarletRed : sharkGrey, fontFamily: 'GoogleSans', fontWeight: FontWeight.bold, fontSize: width(context) / 38  ),
@@ -141,13 +141,13 @@ userBottomTabItems2(BuildContext context){
     new BottomNavigationBarItem(
       activeIcon: Image.asset(
         'assets/images/second/cards.png',
-        height: 20,
+        height: width(context) / 22,
         color: affairPurple,
       ),
 
       icon: Image.asset(
         'assets/images/second/cards.png',
-        height: 20,
+        height: width(context) / 22,
         color: affairPurple.withOpacity(0.4),
         //color: scarletRed,
       ),

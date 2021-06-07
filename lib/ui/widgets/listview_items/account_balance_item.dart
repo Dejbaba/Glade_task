@@ -18,7 +18,7 @@ class AccountBalanceItem extends StatelessWidget {
                 fontSize: width(context) / 35,
                 letterSpacing: 10,
                 fontWeight: FontWeight.w500,
-                color: Colors.white.withOpacity(0.3))),
+                color: Colors.white.withOpacity(0.5))),
         Column(
           children: [
             dummyBalanceDetail.acctCode == 0
@@ -41,7 +41,7 @@ class AccountBalanceItem extends StatelessWidget {
                       children: [
                         TextSpan(
                           text: "₦",
-                          
+
                         ),
                         TextSpan(
                             text:

@@ -13,7 +13,12 @@ class Home2 extends StatelessWidget {
     return Container(
       height: height(context),
       width: width(context),
-      color: affairPurple,
+      decoration: BoxDecoration(
+          color: affairPurple,
+          image: DecorationImage(
+              image: AssetImage("assets/images/first/circle_patterns.png"), fit: BoxFit.cover
+          )
+      ),
       child: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -130,6 +135,9 @@ class Home2 extends StatelessWidget {
     ),
     decoration: BoxDecoration(
         color: affairPurple,
+        image: DecorationImage(
+            image: AssetImage("assets/images/first/circle_patterns.png"), fit: BoxFit.cover
+        ),
         borderRadius: BorderRadius.all(Radius.circular(20))
     ),
     child: Theme(

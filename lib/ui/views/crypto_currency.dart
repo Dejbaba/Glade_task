@@ -91,6 +91,9 @@ class CryptoCurrency extends StatelessWidget{
     margin: EdgeInsets.symmetric(horizontal: width(context) / 15),
     padding: EdgeInsets.only(left: width(context) / 30, right: width(context) / 20),
     decoration: BoxDecoration(
+      image: DecorationImage(
+          image: AssetImage("assets/images/first/circle_patterns.png"), fit: BoxFit.cover
+      ),
       color: cornflowerBlue,
       borderRadius: BorderRadius.all(Radius.circular(10)),
       gradient: LinearGradient(

@@ -35,10 +35,10 @@ class Home extends StatelessWidget {
         child: Row(
           children: [
             CircleAvatar(
-              radius: width(context) / 20,
+              radius: width(context) / 18,
               backgroundColor: turquoiseBlue.withOpacity(0.3),
               child: CircleAvatar(
-                radius: width(context) / 25,
+                radius: width(context) / 23,
                 backgroundColor: turquoiseBlue,
                 child: Text(
                   "SA",
@@ -46,7 +46,7 @@ class Home extends StatelessWidget {
                     fontFamily: "NeurialGrotesk",
                     fontWeight: FontWeight.w700,
                     color: Colors.white,
-                    fontSize: width(context) / 30,
+                    fontSize: width(context) / 27,
                   ),
                 ),
               ),
@@ -83,8 +83,11 @@ class Home extends StatelessWidget {
   acctBalanceSummary(BuildContext context) => Container(
         padding: EdgeInsets.symmetric(vertical: height(context) / 25, horizontal: width(context) / 10),
         decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("assets/images/first/circle_patterns.png"), fit: BoxFit.cover
+            ),
             color: mabelBlue,
-            borderRadius: BorderRadius.all(Radius.circular(10))),
+            borderRadius: BorderRadius.all(Radius.circular(15))),
         child: Column(
           children: [
             Text("Available Balance",
@@ -157,11 +160,23 @@ class Home extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Container(
+                /*Container(
                   height: height(context) / 15,
                   width: width(context) / 8,
                   child: Image.asset("assets/images/first/account_statement.png",
                     color: tangerineOrange,),
+                ),*/
+                Container(
+                  height: height(context) / 15,
+                  width: width(context) / 8,
+                  child: CircleAvatar(
+                    backgroundColor: tangerineOrange,
+                    child: CircleAvatar(
+                      radius: width(context) / 28,
+                      backgroundColor: fairPink,
+
+                    ),
+                  ),
                 ),
                 SizedBox(height: height(context) / 40,),
                 Text("Fund\ntransfer",

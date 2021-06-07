@@ -32,8 +32,8 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-       // home: BottomNav(),
-        home: SecondBottomNav(),
+       home: BottomNav(),
+        //home: SecondBottomNav(),
       ),
     );
   }

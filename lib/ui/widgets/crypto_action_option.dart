@@ -16,7 +16,7 @@ class CryptoActionOption extends StatelessWidget{
   Widget build(BuildContext context) {
 
     return InkResponse(
-      onTap: () => onPressed,
+      onTap: onPressed,
       child: Column(
         children: [
           Container(
@@ -31,7 +31,7 @@ class CryptoActionOption extends StatelessWidget{
           Text(label,
               style: GoogleFonts.dmSans(
                   height: 1,
-                  fontSize: width(context) / 30, fontWeight: FontWeight.w500, color: astronautBlue)),
+                  fontSize: width(context) / 35, fontWeight: FontWeight.w500, color: astronautBlue)),
         ],
       ),
     );

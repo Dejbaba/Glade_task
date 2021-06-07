@@ -32,7 +32,7 @@ class _SecondBottomNav extends State<SecondBottomNav> {
           key: _scaffoldKey,
           extendBodyBehindAppBar: true,
           //backgroundColor: affairPurple,
-          appBar: AppBar(
+          appBar: provider.secondCurrentIndex == 0 ? AppBar(
             leading: Padding(
               padding:  EdgeInsets.only(left: width(context) / 20),
               child: IconButton(
@@ -56,7 +56,7 @@ class _SecondBottomNav extends State<SecondBottomNav> {
                 ),
               )
             ],
-          ),
+          ) : null,
           drawer: Drawer(),
           bottomNavigationBar: Container(
             decoration: BoxDecoration(
@@ -90,7 +90,7 @@ class _SecondBottomNav extends State<SecondBottomNav> {
           ),
           floatingActionButton: FloatingActionButton(
             backgroundColor: affairPurple,
-            onPressed: (){},
+            onPressed: () => print("i was clicked"),
             elevation: 0,
             child: Image.asset("assets/images/second/send.png", height: height(context) / 30,),
           ),
